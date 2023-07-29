@@ -3,7 +3,7 @@
 ## 🚀 Overview
 BrandIt is an AI-based web application that revolutionizes branding. By combining OpenAI's DALLE 2 and a suite of modern tech tools, it generates unique brand pitches, suggests keywords for improved online visibility, and creates striking advertising imagery. 
 ## **Try it here:**  
-[BrandIt](https://brand-it-app.vercel.app/)  
+## [BrandIt](https://brand-it-app.vercel.app/)  
 
 
 **Preview**:    
