@@ -31,7 +31,7 @@ const Form: React.FC<FormProps> = (props) => {
       </div>
 
       <input
-        className="p-2 w-full rounded-md focus:outline-teal-400 focus:outline text-slate-700"
+        className="p-2 w-full rounded-md focus:outline-none focus:border-golden focus:ring focus:ring-golden text-slate-700"
         type="text"
         placeholder="Random 🎲"
         value={props.prompt}
@@ -44,8 +44,8 @@ const Form: React.FC<FormProps> = (props) => {
         </div>
       </div>
       <button
-        className="bg-gradient-to-r from-teal-400 
-        to-blue-500 disabled:opacity-50 w-full p-2 rounded-md text-lg"
+        className="bg-gradient-to-r from-yellow-200 
+        to-yello-500 disabled:opacity-75 w-full p-2 rounded-md text-lg"
         onClick={props.onSubmit}
         disabled={props.isLoading || !isPromptValid}
       >
