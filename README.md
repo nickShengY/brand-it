@@ -36,10 +36,7 @@ Whether you're a budding startup or an established brand aiming to connect with 
    - OpenAI
    - Mangum
    You will need to check out their documentation for the most updated usages  
-2. Clone the repository to your git repo and run it locally:
-    ```
-    git clone https://github.com/YourUsername/BrandIt.git
-    ```
+2. Clone the repository to your git repo and run it locally:  
 3. Set up the Env Var for OPENAI_API_KEY: `$env:OPENAI_API_KEY = "Your key goes here" for local testing, but remember to add it in the dotenv for aws deploying
 4. Setup FastAPI to create handler for AWS Lambda
 5. Deploy the Backend to the AWS with the Lambda, API Gateway. You will also need to build up the base layer for the app with the docker file.
