@@ -56,11 +56,5 @@ The BrandIt web application is hosted using Vercel.
 - Github: [@nickShengY<nickShengY>](https://github.com/nickShengY)
 - Email: <syun13@fordham.edu>/<s24yun@uwaterloo.ca>
 
-- 
 
-## 📚 License
-Distributed under the MIT License. See `LICENSE.md` for more information.
-
-## 🤝 Contact
-For any queries or suggestions, please reach out to us - `YourEmail@example.com`
 
