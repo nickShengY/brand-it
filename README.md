@@ -51,8 +51,12 @@ Whether you're a budding startup or an established brand aiming to connect with 
 ## 🌐 Deployment
 The BrandIt web application is hosted using Vercel. 
 
-## 🙌 Contributing
-Contributions are always welcome! See `CONTRIBUTING.md` for ways to get started.
+## 👩‍💻 Author
+**Sheng Yun**
+- Github: [@nickShengY<nickShengY>](https://github.com/nickShengY)
+- Email: <syun13@fordham.edu>/<s24yun@uwaterloo.ca>
+
+- 
 
 ## 📚 License
 Distributed under the MIT License. See `LICENSE.md` for more information.
