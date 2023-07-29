@@ -1,0 +1,8 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Embed the brand.png image into the SVG -->
+    <image x="0" y="0" width="579" height="300" href="brand.png" />
+    <!-- Adjust x and y if you want to position it elsewhere in the SVG -->
+
+    <!-- You can add other SVG elements here if you want -->
+
+</svg>
