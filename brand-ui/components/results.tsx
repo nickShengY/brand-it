@@ -3,6 +3,7 @@ interface ResultsProps {
   snippet: string;
   keywords: string[];
   onBack: any;
+  url: string;  
 }
 
 const Results: React.FC<ResultsProps> = (props) => {
@@ -19,6 +20,9 @@ const Results: React.FC<ResultsProps> = (props) => {
     keywordElements.push(element);
   }
 
+
+  
+
   const keywordElementsHolder = (
     <div className="flex flex-wrap gap-2">{keywordElements}</div>
   );
@@ -31,6 +35,16 @@ const Results: React.FC<ResultsProps> = (props) => {
       </div>
     );
   };
+  
+
+  const imageSection = resultSection(
+    "Image",
+    <img 
+      src={props.url} 
+      alt="Result Image" 
+      style={{maxWidth: "350px", maxHeight: "350px"}}
+    />
+  );
 
   return (
     <>
@@ -41,6 +55,8 @@ const Results: React.FC<ResultsProps> = (props) => {
         )} */}
         {resultSection("Branding Snippet", props.snippet)}
         {resultSection("Keywords", keywordElementsHolder)}
+        {imageSection} 
+
       </div>
       <button
         className="bg-gradient-to-r from-teal-400 
