@@ -12,6 +12,7 @@ const Brand: React.FC = () => {
   const [prompt, setPrompt] = React.useState("");
   const [snippet, setSnippet] = React.useState("");
   const [keywords, setKeywords] = React.useState([]);
+  const [url, setUrl] = React.useState("");
   const [hasResult, setHasResult] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(false);
 
@@ -26,6 +27,7 @@ const Brand: React.FC = () => {
   const onResult = (data: any) => {
     setSnippet(data.snippet);
     setKeywords(data.keywords);
+    setUrl(data.url);
     setHasResult(true);
     setIsLoading(false);
   };
@@ -45,6 +47,7 @@ const Brand: React.FC = () => {
         keywords={keywords}
         onBack={onReset}
         prompt={prompt}
+        url={url}
       />
     );
   } else {
